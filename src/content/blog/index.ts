@@ -4,5 +4,5 @@ import { cohort2026 } from "./cohorts/2026";
 
 export const blogYears: BlogCohort[] = [
   cohort2026,
-  // cohort2026,
+  // cohort2027,
 ].sort((a, b) => (a.year < b.year ? 1 : -1));
