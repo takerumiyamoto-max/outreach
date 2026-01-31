@@ -19,7 +19,7 @@ export default function NewsPost() {
   return (
     <article className="py-10">
       <Link className="text-sm text-slate-700 hover:underline" to="/news">
-        ← News
+        ← News一覧
       </Link>
 
       <h1 className="mt-3 text-2xl md:text-3xl font-semibold">{item.title}</h1>

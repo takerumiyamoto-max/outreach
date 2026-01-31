@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom";
+
 export default function Contact() {
   return (
     <div className="py-10">
+      <Link className="text-sm text-slate-700 hover:underline" to="/">
+        ← Home
+      </Link>
       <h1 className="text-2xl font-semibold">Contact Us</h1>
       <p className="mt-2 text-sm text-slate-600">
         ご質問、ご相談はこちらのフォームより承っております。
