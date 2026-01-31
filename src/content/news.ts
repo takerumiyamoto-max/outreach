@@ -1,3 +1,5 @@
+import newsPicture1 from "../assets/news/news.jpg";
+
 export type NewsItem = {
   slug: string;
   title: string;
@@ -11,10 +13,9 @@ export const news: NewsItem[] = [
   {
     slug: "kickoff",
     title: "公式Webサイト開設のお知らせ",
-    date: "2026-01-31",
+    date: "2026-02-01",
     excerpt: "ニュースとブログを順次追加していきます。",
-    body: "ここがニュース本文です。\n\n- 箇条書きもOK\n- 後でMarkdown対応にもできます。",
-    imageUrl:
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+    body: "初めまして、鉄門国際医療研究会Outreachです。本日2026年2月1日にWebページを開設いたしました。活動報告などを行なっていきます！",
+    imageUrl: newsPicture1
   },
 ];

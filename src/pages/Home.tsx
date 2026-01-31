@@ -27,13 +27,13 @@ export default function Home() {
 
       <section className="mt-14">
         <div className="flex items-end justify-between gap-4">
-          <h2 className="text-xl md:text-2xl font-semibold">Recent News</h2>
+          <h2 className="text-xl md:text-2xl font-semibold">News</h2>
           <a className="text-sm text-slate-700 hover:underline" href="/news">
             すべて見る
           </a>
         </div>
         <p className="mt-2 text-sm text-slate-600">
-          最新のお知らせ。カードをクリックすると詳細ページへ。
+          最新のお知らせ。
         </p>
         <div className="mt-6">
           <CardGrid items={newsCards} />
@@ -41,9 +41,9 @@ export default function Home() {
       </section>
 
       <section className="mt-16">
-        <h2 className="text-xl md:text-2xl font-semibold">Blog Archive</h2>
+        <h2 className="text-xl md:text-2xl font-semibold">Blog</h2>
         <p className="mt-2 text-sm text-slate-600">
-          「第一期派遣団」など、年（または期）ごとのページへ。
+          各派遣団の活動報告ブログはこちら。
         </p>
         <div className="mt-6">
           <CardGrid items={blogCards} />
@@ -58,7 +58,7 @@ export default function Home() {
 
         <div className="mt-6">
           <div className="rounded-3xl border p-6">
-            <div className="text-slate-700">お問い合わせはフォームからどうぞ。</div>
+            <div className="text-slate-700">お問い合わせはこちらのフォームからどうぞ。</div>
             <a
               href="/contact"
               className="mt-4 inline-block rounded-full bg-slate-900 px-5 py-2 text-sm text-white"

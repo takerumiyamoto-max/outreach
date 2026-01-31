@@ -3,10 +3,10 @@ import type { BlogPost } from "../../../types";
 
 const post: BlogPost = {
   slug: "day-2",
-  title: "現地活動1日目",
-  date: "2025-08-02",
-  excerpt: "本文サンプル",
-  body: "本文サンプル。\n\n続き…",
+  title: "No title",
+  date: "2026-01-02",
+  excerpt: "No text",
+  body: "No text",
 //   imageUrl: thumb,
 };
 

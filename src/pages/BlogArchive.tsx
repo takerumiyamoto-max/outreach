@@ -1,6 +1,7 @@
 import CardGrid from "../components/CardGrid";
 import type { CardItem } from "../components/CardGrid";
 import { blogYears } from "../content/blog";
+import { Link } from "react-router-dom";
 
 export default function BlogArchive() {
   const items: CardItem[] = blogYears.map((y) => ({
@@ -13,8 +14,11 @@ export default function BlogArchive() {
 
   return (
     <div className="py-10">
+      <Link className="text-sm text-slate-700 hover:underline" to="/">
+        ← Home
+      </Link>
       <h1 className="text-2xl font-semibold">Blog Archive</h1>
-      <p className="mt-2 text-sm text-slate-600">年（または期）ごとのページ</p>
+      <p className="mt-2 text-sm text-slate-600">各派遣団の活動報告ブログはこちら。</p>
       <div className="mt-6">
         <CardGrid items={items} />
       </div>
