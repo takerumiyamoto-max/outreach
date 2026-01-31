@@ -39,7 +39,7 @@ export default function CardGrid({ items }: { items: CardItem[] }) {
             </div>
 
             {it.description && (
-              <p className="mt-2 text-sm text-slate-600 line-clamp-2">
+              <p className="mt-2 text-sm text-slate-600 line-clamp-3">
                 {it.description}
               </p>
             )}
