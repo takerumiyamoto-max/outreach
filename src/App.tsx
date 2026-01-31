@@ -6,6 +6,7 @@ import NewsPost from "./pages/NewsPost";
 import BlogArchive from "./pages/BlogArchive";
 import BlogYear from "./pages/BlogYear";
 import Contact from "./pages/Contact";
+import ContactSuccess from "./pages/ContactSuccess";
 
 export default function App() {
   return (
@@ -22,6 +23,8 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
 
         <Route path="*" element={<Navigate to="/" replace />} />
+
+        <Route path="/contact/success" element={<ContactSuccess />} />
       </Route>
     </Routes>
   );
